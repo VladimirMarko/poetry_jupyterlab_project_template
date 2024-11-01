@@ -4,13 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["Vladimir Marko <vladimirmarko1988@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyterlab = "^4.2.5"
 ipykernel = "^6.29.5"
 ipyflow = "^0.0.200"
-
 
 [build-system]
 requires = ["poetry-core"]
