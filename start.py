@@ -3,6 +3,7 @@
 import os
 
 def start():
+  os.system("poetry install")
   os.system("poetry run jupyter lab")
 
 if __name__ == "__main__":
